@@ -108,14 +108,22 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* EcoRoute Project */}
           <motion.div 
             whileHover={{ y: -6 }}
-            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-8 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between min-h-75"
+            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-6 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between overflow-hidden"
           >
             <div>
-              <div className="flex justify-between items-start mb-6">
+              {/* Catchy Project Image Banner */}
+              <div className="w-full h-48 rounded-xl bg-neutral-200 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=600&auto=format&fit=crop" 
+                  alt="EcoRoute System Architecture" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4">
                 <span className="text-xs font-mono px-3 py-1 bg-white border border-neutral-200 text-neutral-600 rounded-full">Web App / Sustainability</span>
                 <a href="https://github.com/misthi25/Ecoroute" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors"><ExternalLink size={18} /></a>
               </div>
@@ -134,10 +142,18 @@ export default function Portfolio() {
           {/* TCP Throughput Analysis */}
           <motion.div 
             whileHover={{ y: -6 }}
-            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-8 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between min-h-75"
+            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-6 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between overflow-hidden"
           >
             <div>
-              <div className="flex justify-between items-start mb-6">
+              {/* Catchy Project Image Banner */}
+              <div className="w-full h-48 rounded-xl bg-neutral-200 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop" 
+                  alt="TCP Data Flow Visualization" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4">
                 <span className="text-xs font-mono px-3 py-1 bg-white border border-neutral-200 text-neutral-600 rounded-full">Networking / Blog</span>
                 <a href="https://github.com/misthi25/TCP-Throughput-Analysis" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors"><ExternalLink size={18} /></a>
               </div>
@@ -156,10 +172,18 @@ export default function Portfolio() {
           {/* Microsoft Club Website */}
           <motion.div 
             whileHover={{ y: -6 }}
-            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-8 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between min-h-75"
+            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-6 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between overflow-hidden"
           >
             <div>
-              <div className="flex justify-between items-start mb-6">
+              {/* Catchy Project Image Banner */}
+              <div className="w-full h-48 rounded-xl bg-neutral-200 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop" 
+                  alt="Modern Minimalist User Interface" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4">
                 <span className="text-xs font-mono px-3 py-1 bg-white border border-neutral-200 text-neutral-600 rounded-full">Production UI</span>
                 <a href="https://github.com/misthi25/mic-official-website-25" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors"><ExternalLink size={18} /></a>
               </div>
@@ -178,10 +202,18 @@ export default function Portfolio() {
           {/* CIFAR-10 Image Classifier */}
           <motion.div 
             whileHover={{ y: -6 }}
-            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-8 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between min-h-75"
+            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-6 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between overflow-hidden"
           >
             <div>
-              <div className="flex justify-between items-start mb-6">
+              {/* Catchy Project Image Banner */}
+              <div className="w-full h-48 rounded-xl bg-neutral-200 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=600&auto=format&fit=crop" 
+                  alt="Neural Network Architecture Visualization" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4">
                 <span className="text-xs font-mono px-3 py-1 bg-white border border-neutral-200 text-neutral-600 rounded-full">Computer Vision</span>
                 <a href="https://github.com/misthi25/cifar10-image-classifier" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors"><ExternalLink size={18} /></a>
               </div>
@@ -200,10 +232,17 @@ export default function Portfolio() {
           {/* VERITY Multi-Agent Framework */}
           <motion.div 
             whileHover={{ y: -6 }}
-            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-8 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between min-h-75"
+            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-6 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between overflow-hidden"
           >
             <div>
-              <div className="flex justify-between items-start mb-6">
+              <div className="w-full h-48 rounded-xl bg-neutral-200 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=600&auto=format&fit=crop" 
+                  alt="Data Integrity System" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4">
                 <span className="text-xs font-mono px-3 py-1 bg-white border border-neutral-200 text-neutral-600 rounded-full">Next.js / Framework</span>
                 <a href="#" className="text-neutral-400 hover:text-neutral-900 transition-colors"><ExternalLink size={18} /></a>
               </div>
@@ -220,10 +259,17 @@ export default function Portfolio() {
           {/* Dropout Prediction System */}
           <motion.div 
             whileHover={{ y: -6 }}
-            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-8 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between min-h-75"
+            className="bg-neutral-50/50 border border-neutral-100 rounded-2xl p-6 hover:border-neutral-200 hover:bg-neutral-50 transition-all group flex flex-col justify-between overflow-hidden"
           >
             <div>
-              <div className="flex justify-between items-start mb-6">
+              <div className="w-full h-48 rounded-xl bg-neutral-200 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop" 
+                  alt="Predictive Analytics Dashboard" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4">
                 <span className="text-xs font-mono px-3 py-1 bg-white border border-neutral-200 text-neutral-600 rounded-full">Machine Learning</span>
                 <a href="#" className="text-neutral-400 hover:text-neutral-900 transition-colors"><ExternalLink size={18} /></a>
               </div>
@@ -289,9 +335,9 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* FOOTER */}
+      {/* CLEAN FOOTER */}
       <footer className="max-w-5xl mx-auto px-6 mt-32 pt-8 border-t border-neutral-200 text-center text-xs text-neutral-400 font-mono">
-        © {new Date().getFullYear()} Misthi Pandey. Built with Next.js & Framer Motion. Inspired by Emma Duprey.
+        © {new Date().getFullYear()} Misthi Pandey.
       </footer>
     </div>
   );
