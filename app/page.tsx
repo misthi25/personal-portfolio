@@ -122,7 +122,7 @@ export default function Portfolio() {
         <div className="relative w-64 h-80 bg-neutral-900/50 border border-purple-900/30 rounded-2xl p-3 shadow-2xl overflow-hidden mb-8">
           <div className="w-full h-full rounded-xl overflow-hidden relative">
             <img 
-              src="/WhatsApp Image 2026-05-23 at 10.51.13 AM.jpeg" 
+              src="/image.png" 
               alt="Misthi Pandey" 
               className="w-full h-full object-cover"
             />
@@ -146,7 +146,7 @@ export default function Portfolio() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-pink-400 font-sans text-xs uppercase tracking-widest max-w-lg mb-5 font-semibold"
         >
-          B.Tech Computer Science & Engineering @ VIT Chennai[cite: 1]
+          B.Tech Computer Science & Engineering @ VIT Chennai
         </motion.p>
 
         {/* Introduction Paragraph */}
@@ -170,10 +170,10 @@ export default function Portfolio() {
             <Mail size={16} /> Contact Me[cite: 1]
           </a>
           <a href="https://linkedin.com/in/misthi25" target="_blank" rel="noreferrer" className="p-3 bg-neutral-900/40 border border-purple-900/30 rounded-full text-pink-100/80 hover:bg-purple-950/40 hover:text-white transition-all shadow-sm">
-            <LinkedInIcon size={18} />[cite: 1]
+            <LinkedInIcon size={18} />
           </a>
           <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="p-3 bg-neutral-900/40 border border-purple-900/30 rounded-full text-pink-100/80 hover:bg-purple-950/40 hover:text-white transition-all shadow-sm">
-            <GitHubIcon size={18} />[cite: 1]
+            <GitHubIcon size={18} />
           </a>
         </motion.div>
       </section>
@@ -491,10 +491,10 @@ export default function Portfolio() {
               <h3 className="text-sm font-sans uppercase tracking-wider text-pink-400/50 mb-6">Industry Credentials</h3>
               <div className="flex gap-4 justify-center flex-wrap text-sm font-medium font-sans">
                 <span className="px-4 py-2 bg-neutral-900/40 text-white font-semibold rounded-xl border border-purple-900/20 shadow-lg backdrop-blur-sm">
-                  Deloitte Australia — Data Analytics[cite: 1]
+                  Deloitte Australia — Data Analytics
                 </span>
                 <span className="px-4 py-2 bg-neutral-900/40 text-white font-semibold rounded-xl border border-purple-900/20 shadow-lg backdrop-blur-sm">
-                  IBM — AI Fundamentals[cite: 1]
+                  IBM — AI Fundamentals
                 </span>
               </div>
             </div>
