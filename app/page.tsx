@@ -122,7 +122,7 @@ export default function Portfolio() {
         <div className="relative w-64 h-80 bg-neutral-900/50 border border-purple-900/30 rounded-2xl p-3 shadow-2xl overflow-hidden mb-8">
           <div className="w-full h-full rounded-xl overflow-hidden relative">
             <img 
-              src="/WhatsApp Image 2026-05-23 at 10.51.13 AM.jpeg" 
+              src="/image.png" 
               alt="Misthi Pandey" 
               className="w-full h-full object-cover"
             />
