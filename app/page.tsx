@@ -122,7 +122,7 @@ export default function Portfolio() {
         <div className="relative w-64 h-80 bg-neutral-900/50 border border-purple-900/30 rounded-2xl p-3 shadow-2xl overflow-hidden mb-8">
           <div className="w-full h-full rounded-xl overflow-hidden relative">
             <img 
-              src="/image.png" 
+              src="/WhatsApp Image 2026-05-23 at 10.51.13 AM.jpeg" 
               alt="Misthi Pandey" 
               className="w-full h-full object-cover"
             />
@@ -140,13 +140,13 @@ export default function Portfolio() {
         </motion.h1>
 
         {/* B.Tech Placement Line */}
-          <motion.p 
+        <motion.p 
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-pink-400 font-sans text-xs uppercase tracking-widest max-w-lg mb-5 font-semibold"
         >
-          B.Tech Computer Science & Engineering @ VIT Chennai
+          B.Tech Computer Science & Engineering @ VIT Chennai[cite: 1]
         </motion.p>
 
         {/* Introduction Paragraph */}
@@ -167,13 +167,13 @@ export default function Portfolio() {
           className="flex flex-wrap gap-4 items-center justify-center font-sans"
         >
           <a href="mailto:misthikpandey@gmail.com" className="bg-white text-neutral-950 px-6 py-3 rounded-full text-sm font-semibold flex items-center gap-2 hover:bg-pink-50 transition-all shadow-md hover:-translate-y-0.5">
-            <Mail size={16} /> Contact Me
+            <Mail size={16} /> Contact Me[cite: 1]
           </a>
           <a href="https://linkedin.com/in/misthi25" target="_blank" rel="noreferrer" className="p-3 bg-neutral-900/40 border border-purple-900/30 rounded-full text-pink-100/80 hover:bg-purple-950/40 hover:text-white transition-all shadow-sm">
-            <LinkedInIcon size={18} />
+            <LinkedInIcon size={18} />[cite: 1]
           </a>
           <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="p-3 bg-neutral-900/40 border border-purple-900/30 rounded-full text-pink-100/80 hover:bg-purple-950/40 hover:text-white transition-all shadow-sm">
-            <GitHubIcon size={18} />
+            <GitHubIcon size={18} />[cite: 1]
           </a>
         </motion.div>
       </section>
@@ -188,6 +188,133 @@ export default function Portfolio() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {/* VERITY Multi-Agent System */}
+          <motion.div 
+            whileHover={{ y: -6 }}
+            className="bg-neutral-900/20 border border-purple-900/10 rounded-2xl p-6 shadow-sm hover:border-purple-900/30 hover:bg-purple-950/10 transition-all group flex flex-col justify-between overflow-hidden"
+          >
+            <div>
+              <div className="w-full h-48 rounded-xl bg-neutral-900/40 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=600&auto=format&fit=crop" 
+                  alt="Multi-Agent AI Network Grid" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4 font-sans">
+                <span className="text-xs font-mono px-3 py-1 bg-purple-950/40 border border-purple-900/20 text-pink-300 rounded-full">Multi-Agent AI / NLP</span>
+                <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="text-pink-400/60 hover:text-white transition-colors"><ExternalLink size={18} /></a>
+              </div>
+              <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="inline-block group-hover:text-pink-400 transition-colors">
+                <h3 className="text-2xl font-normal mb-3 text-white">VERITY Detection System</h3>
+              </a>
+              <p className="text-pink-100/60 text-base font-light leading-relaxed">
+                Designed a multi-agent AI framework for misinformation validation through coordinated model interactions, emphasizing a highly scalable architecture[cite: 1].
+              </p>
+            </div>
+            <div className="mt-6 pt-4 border-t border-purple-900/10 flex gap-3 text-xs text-pink-400/40 font-sans items-center">
+              <span className="flex items-center gap-2">
+                <svg viewBox="0 0 24 24" className="w-4 h-4 fill-[#3776AB]"><path d="M14.25.18c.9 0 1.66.73 1.66 1.65v2.89h3.69c.93 0 1.66.73 1.66 1.65v3.13c0 .93-.73 1.66-1.66 1.66h-.57c-.63 0-1.14-.51-1.14-1.14V7.53c0-.93-.74-1.66-1.66-1.66h-5.32c-.92 0-1.66-.73-1.66-1.66V2.32c0-.92.74-1.65 1.66-1.65h3.33zM7.5 5.25c.63 0 1.14.51 1.14 1.14v2.49c0 .93.74 1.66 1.66 1.66h5.32c.92 0 1.66.73 1.66 1.66v2.49c0 .63-.51 1.14-1.14 1.14H11.1c-.93 0-1.66-.73-1.66-1.66V11.1c0-.93-.74-1.66-1.66-1.66H4.66c-.63 0-1.14-.51-1.14-1.14V5.25h4zM4.66 12.82c.92 0 1.66.73 1.66 1.65v3.14c0 .92.74 1.65 1.66 1.65h5.32c.92 0 1.66.74 1.66 1.66v1.94c0 .92-.74 1.66-1.66 1.66H6.48c-.93 0-1.66-.74-1.66-1.66v-2.89H1.13c-.93 0-1.66-.74-1.66-1.66v-3.13c0-.92.73-1.66 1.66-1.66h3.53z"/></svg>
+                <span>Python</span>
+              </span>
+            </div>
+          </motion.div>
+
+          {/* E-Commerce Web Application */}
+          <motion.div 
+            whileHover={{ y: -6 }}
+            className="bg-neutral-900/20 border border-purple-900/10 rounded-2xl p-6 shadow-sm hover:border-purple-900/30 hover:bg-purple-950/10 transition-all group flex flex-col justify-between overflow-hidden"
+          >
+            <div>
+              <div className="w-full h-48 rounded-xl bg-neutral-900/40 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=600&auto=format&fit=crop" 
+                  alt="Modern Digital Shopping Dashboard" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4 font-sans">
+                <span className="text-xs font-mono px-3 py-1 bg-purple-950/40 border border-purple-900/20 text-pink-300 rounded-full">Full Stack / Commerce</span>
+                <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="text-pink-400/60 hover:text-white transition-colors"><ExternalLink size={18} /></a>
+              </div>
+              <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="inline-block group-hover:text-pink-400 transition-colors">
+                <h3 className="text-2xl font-normal mb-3 text-white">E-Commerce Architecture</h3>
+              </a>
+              <p className="text-pink-100/60 text-base font-light leading-relaxed">
+                Full-stack marketplace platform developed using React, Node.js, and MongoDB[cite: 1]. Integrates backend database structures with fully responsive client APIs[cite: 1].
+              </p>
+            </div>
+            <div className="mt-6 pt-4 border-t border-purple-900/10 flex gap-3 text-xs text-pink-400/40 font-sans items-center font-semibold">
+              <span className="flex items-center gap-2"><svg viewBox="0 0 24 24" className="w-4 h-4 fill-[#61DAFB]"><path d="M24 12c0-1.18-.81-2.29-2.22-3.17 1.41-.88 2.22-1.99 2.22-3.17 0-2.41-3.38-4.37-7.55-4.37-1.11 0-2.17.14-3.15.39C12.32.62 11.23 0 10.05 0 6.67 0 3.93 2.74 3.93 6.12c0 .49.06.96.17 1.42C1.63 8.3.01 9.77.01 11.4c0 2.41 3.38 4.37 7.55 4.37 1.11 0 2.17-.14 3.15-.39.98 1.06 2.07 1.68 3.25 1.68 3.38 0 6.12-2.74 6.12-6.12 0-.49-.06-.96-.17-1.42 2.48-.76 4.1-2.23 4.1-3.86zm-13.95 2.12c-2.92 0-5.3-1.25-5.3-2.78 0-1.29 1.7-2.4 4.12-2.71a10.96 10.96 0 0 0-.12 1.61c0 1.5.41 2.92 1.13 4.11-.47.22-.96.38-1.45.38zm3.95-6.24c0-2.22 1.8-4.02 4.02-4.02s4.02 1.8 4.02 4.02-1.8 4.02-4.02 4.02-4.02-1.8-4.02-4.02z"/></svg>React</span>
+              <span>—</span>
+              <span className="flex items-center gap-2"><svg viewBox="0 0 24 24" className="w-4 h-4 fill-[#47A248]"><path d="M12 .018c-.12 0-.24.018-.342.06C10.458.558 4.47 5.37 4.47 11.754c0 4.656 3.168 8.448 7.188 9.876V24h.684v-2.37c4.02-1.428 7.188-5.22 7.188-9.876 0-6.384-5.988-11.196-7.188-11.676a.91.91 0 0 0-.342-.06zM12 2.19c.126.108 5.316 4.608 5.316 9.564 0 3.84-2.31 7.026-5.316 8.286V2.19z"/></svg>MongoDB</span>
+            </div>
+          </motion.div>
+
+          {/* AI-Based Dropout Prediction System */}
+          <motion.div 
+            whileHover={{ y: -6 }}
+            className="bg-neutral-900/20 border border-purple-900/10 rounded-2xl p-6 shadow-sm hover:border-purple-900/30 hover:bg-purple-950/10 transition-all group flex flex-col justify-between overflow-hidden"
+          >
+            <div>
+              <div className="w-full h-48 rounded-xl bg-neutral-900/40 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop" 
+                  alt="Predictive Analytics Charts" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4 font-sans">
+                <span className="text-xs font-mono px-3 py-1 bg-purple-950/40 border border-purple-900/20 text-pink-300 rounded-full">Predictive Analytics</span>
+                <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="text-pink-400/60 hover:text-white transition-colors"><ExternalLink size={18} /></a>
+              </div>
+              <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="inline-block group-hover:text-pink-400 transition-colors">
+                <h3 className="text-2xl font-normal mb-3 text-white">Dropout Prediction Engine</h3>
+              </a>
+              <p className="text-pink-100/60 text-base font-light leading-relaxed">
+                Developed a custom ML classification model utilizing student academic benchmarks and behavioral variables to intercept dropouts early[cite: 1].
+              </p>
+            </div>
+            <div className="mt-6 pt-4 border-t border-purple-900/10 flex gap-3 text-xs text-pink-400/40 font-sans items-center">
+              <span className="flex items-center gap-2">
+                <svg viewBox="0 0 24 24" className="w-4 h-4 fill-[#3776AB]"><path d="M14.25.18c.9 0 1.66.73 1.66 1.65v2.89h3.69c.93 0 1.66.73 1.66 1.65v3.13c0 .93-.73 1.66-1.66 1.66h-.57c-.63 0-1.14-.51-1.14-1.14V7.53c0-.93-.74-1.66-1.66-1.66h-5.32c-.92 0-1.66-.73-1.66-1.66V2.32c0-.92.74-1.65 1.66-1.65h3.33zM7.5 5.25c.63 0 1.14.51 1.14 1.14v2.49c0 .93.74 1.66 1.66 1.66h5.32c.92 0 1.66.73 1.66 1.66v2.49c0 .63-.51 1.14-1.14 1.14H11.1c-.93 0-1.66-.73-1.66-1.66V11.1c0-.93-.74-1.66-1.66-1.66H4.66c-.63 0-1.14-.51-1.14-1.14V5.25h4zM4.66 12.82c.92 0 1.66.73 1.66 1.65v3.14c0 .92.74 1.65 1.66 1.65h5.32c.92 0 1.66.74 1.66 1.66v1.94c0 .92-.74 1.66-1.66 1.66H6.48c-.93 0-1.66-.74-1.66-1.66v-2.89H1.13c-.93 0-1.66-.74-1.66-1.66v-3.13c0-.92.73-1.66 1.66-1.66h3.53z"/></svg>
+                <span>Python</span>
+              </span>
+            </div>
+          </motion.div>
+
+          {/* Bank Management System */}
+          <motion.div 
+            whileHover={{ y: -6 }}
+            className="bg-neutral-900/20 border border-purple-900/10 rounded-2xl p-6 shadow-sm hover:border-purple-900/30 hover:bg-purple-950/10 transition-all group flex flex-col justify-between overflow-hidden"
+          >
+            <div>
+              <div className="w-full h-48 rounded-xl bg-neutral-900/40 mb-6 overflow-hidden relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=600&auto=format&fit=crop" 
+                  alt="Secure Banking Abstract Grid" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="flex justify-between items-start mb-4 font-sans">
+                <span className="text-xs font-mono px-3 py-1 bg-purple-950/40 border border-purple-900/20 text-pink-300 rounded-full">Desktop Systems</span>
+                <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="text-pink-400/60 hover:text-white transition-colors"><ExternalLink size={18} /></a>
+              </div>
+              <a href="https://github.com/misthi25" target="_blank" rel="noreferrer" className="inline-block group-hover:text-pink-400 transition-colors">
+                <h3 className="text-2xl font-normal mb-3 text-white">Bank Management Core</h3>
+              </a>
+              <p className="text-pink-100/60 text-base font-light leading-relaxed">
+                Built a secure desktop app supporting account generation, tracking routines, and safe PIN authentication frameworks using highly modular code styling[cite: 1].
+              </p>
+            </div>
+            <div className="mt-6 pt-4 border-t border-purple-900/10 flex gap-3 text-xs text-pink-400/40 font-sans items-center font-semibold">
+              <span className="flex items-center gap-2">
+                <svg viewBox="0 0 24 24" className="w-4 h-4 fill-[#E76F00]"><path d="M9.024 18.318l-.018.042c-.228.438-.348.834-.348 1.158 0 .804.57 1.302 1.632 1.302 1.488 0 3.018-.762 4.14-2.052l.06-.072c-.93.312-1.92.468-2.904.468-1.02 0-1.968-.156-2.562-.846zm1.182-4.146c-1.356 0-2.328-.54-2.328-1.458 0-.948 1.152-1.554 2.892-1.554 1.764 0 2.76.54 2.76 1.446 0 .978-1.2 1.566-3.324 1.566zm6.816 5.862c-.756.918-2.076 1.512-3.6 1.512-1.116 0-2.016-.276-2.544-.696 1.146-.03 2.37-.36 3.486-.948l.042-.024c.942-.498 1.746-1.146 2.316-1.878.228.696.426 1.41.3 2.034zm-3.036-9.102c2.814 0 4.602 1.092 4.602 2.652 0 1.572-1.938 2.628-4.992 2.628-3.36 0-5.382-1.062-5.382-2.652 0-1.542 1.956-2.628 5.772-2.628zm-3.792-7.392c.048.336.042.756-.03 1.2a14.73 14.73 0 0 1-.414 1.638 12.01 12.01 0 0 1 1.764-.534 5.34 5.34 0 0 1 1.092-.12c1.026 0 1.59.342 1.59.948 0 .762-.9 1.482-2.484 2.058l-.444.156c-1.614.54-2.736 1.122-3.234 1.662-.312.33-.45.696-.45 1.098 0 .864.714 1.524 2.112 1.944a10.89 10.89 0 0 0 3.168.42c1.386 0 2.67-.18 3.612-.492l.06-.024c1.68-.588 2.67-1.392 2.67-2.214 0-.306-.114-.624-.348-.96-.492-.708-1.536-1.284-2.91-1.602l.606-.702c1.176-1.38 1.758-2.688 1.758-3.966 0-1.506-.948-2.526-2.706-2.91-1.2-.264-2.718-.114-4.224.426-.504.18-.942.408-1.308.666l.324-.324c.48-.48.828-1.002.99-1.512l.012-.036c.156-.558.114-1.08-.132-1.464-.222-.348-.618-.546-1.128-.546-.384 0-.822.114-1.266.336zm-2.16 8.358c-.378-.342-.564-.738-.564-1.164 0-.858.78-1.65 2.16-2.244l.246-.102c.576-.234 1.026-.438 1.314-.606-.522.69-1.23 1.518-1.95 2.298l-.054.06c-.414.45-.798.87-1.152 1.758z"/></svg>
+                <span>Java Core</span>
+              </span>
+            </div>
+          </motion.div>
+
           {/* EcoRoute Project */}
           <motion.div 
             whileHover={{ y: -6 }}
@@ -267,13 +394,13 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-normal mb-3 text-white">MIC Official Club Platform</h3>
               </a>
               <p className="text-pink-100/60 text-base font-medium leading-relaxed">
-                Contributed structural frontend layout components and interaction spaces for the official Microsoft Innovation Club platform at VIT Chennai.
+                Contributed structural frontend layout components and interaction spaces for the official Microsoft Innovation Club platform at VIT Chennai[cite: 1].
               </p>
             </div>
             <div className="mt-6 pt-4 border-t border-purple-900/10 flex gap-3 text-xs text-pink-400/40 font-sans font-semibold items-center">
               <span className="flex items-center gap-2"><svg viewBox="0 0 24 24" className="w-4 h-4 fill-white"><path d="M12 0a12 12 0 1 0 12 12A12.013 12.013 0 0 0 12 0zm5.4 17.5l-4.75-6.075V17.5h-1.45V9.45h1.45l4.3 5.5V9.45H18v8.05h-.6zM10.75 9.45v8.05h-1.45V9.45h1.45z"/></svg>Next.js</span>
               <span>—</span>
-              <span className="flex items-center gap-2"><svg viewBox="0 0 24 24" className="w-4 h-4 fill-[#06B6D4]"><path d="M24 12c0-1.18-.81-2.29-2.22-3.17 1.41-.88 2.22-1.99 2.22-3.17 0-2.41-3.38-4.37-7.55-4.37-1.11 0-2.17.14-3.15.39C12.32.62 11.23 0 10.05 0 6.67 0 3.93 2.74 3.93 6.12c0 .49.06.96.17 1.42C1.63 8.3.01 9.77.01 11.4c0 2.41 3.38 4.37 7.55 4.37 1.11 0 2.17-.14 3.15-.39.98 1.06 2.07 1.68 3.25 1.68 3.38 0 6.12-2.74 6.12-6.12 0-.49-.06-.96-.17-1.42 2.48-.76 4.1-2.23 4.1-3.86z"/></svg>Tailwind CSS</span>
+              <span className="flex items-center gap-2"><svg viewBox="0 0 24 24" className="w-4 h-4 fill-[#06B6D4]"><path d="M24 12c0-1.18-.81-2.29-2.22-3.17 1.41-.88 2.22-1.99 2.22-3.17 0-2.41-3.38-4.37-7.55-4.37-1.11 0-2.17.14-3.15.39C12.32.62 11.23 0 10.05 0 6.67 0 3.93 2.74 3.93 6.12c0 .49.06.96.17 1.42C1.63 8.3.01 9.77.01 11.4c0 2.41 3.38 4.37 7.55 4.37 1.11 0 2.17-.14 3.15-.39.98 1.06 2.07 1.68 3.25 1.68 3.38 0 6.12-2.74 6.12-6.12 0-.49-.06-.96-.17-1.42 2.48-.76 4.1-2.23 4.1-3.86zm-13.95 2.12c-2.92 0-5.3-1.25-5.3-2.78 0-1.29 1.7-2.4 4.12-2.71a10.96 10.96 0 0 0-.12 1.61c0 1.5.41 2.92 1.13 4.11-.47.22-.96.38-1.45.38zm3.95-6.24c0-2.22 1.8-4.02 4.02-4.02s4.02 1.8 4.02 4.02-1.8 4.02-4.02 4.02-4.02-1.8-4.02-4.02z"/></svg>Tailwind CSS</span>
             </div>
           </motion.div>
 
@@ -364,10 +491,10 @@ export default function Portfolio() {
               <h3 className="text-sm font-sans uppercase tracking-wider text-pink-400/50 mb-6">Industry Credentials</h3>
               <div className="flex gap-4 justify-center flex-wrap text-sm font-medium font-sans">
                 <span className="px-4 py-2 bg-neutral-900/40 text-white font-semibold rounded-xl border border-purple-900/20 shadow-lg backdrop-blur-sm">
-                  Deloitte Australia — Data Analytics
+                  Deloitte Australia — Data Analytics[cite: 1]
                 </span>
                 <span className="px-4 py-2 bg-neutral-900/40 text-white font-semibold rounded-xl border border-purple-900/20 shadow-lg backdrop-blur-sm">
-                  IBM — AI Fundamentals
+                  IBM — AI Fundamentals[cite: 1]
                 </span>
               </div>
             </div>
