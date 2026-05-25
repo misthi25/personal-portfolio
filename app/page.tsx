@@ -167,7 +167,7 @@ export default function Portfolio() {
           className="flex flex-wrap gap-4 items-center justify-center font-sans"
         >
           <a href="mailto:misthikpandey@gmail.com" className="bg-white text-neutral-950 px-6 py-3 rounded-full text-sm font-semibold flex items-center gap-2 hover:bg-pink-50 transition-all shadow-md hover:-translate-y-0.5">
-            <Mail size={16} /> Contact Me[cite: 1]
+            <Mail size={16} /> Contact Me
           </a>
           <a href="https://linkedin.com/in/misthi25" target="_blank" rel="noreferrer" className="p-3 bg-neutral-900/40 border border-purple-900/30 rounded-full text-pink-100/80 hover:bg-purple-950/40 hover:text-white transition-all shadow-sm">
             <LinkedInIcon size={18} />
